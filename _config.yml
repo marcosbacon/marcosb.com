@@ -2,10 +2,10 @@ title: Marcos Bacon • Sound Design
 description: >
   **Eu sou o Marcos Bacon**, 
   e eu crio sons.
-  Check out my [portfolio](https://soundcloud.com/marcosbacon/sets/portfolio).
+  Se liga no meu [portfolio](https://soundcloud.com/marcosbacon/sets/portfolio).
 copyright: 2019 • Marcos Bacon
 sass:
-sass_dir: assets/sass
+  sass_dir: assets/sass
 url: http://localhost:4000
 disqus_shortname: marcosbacon
 facebook_username: pianobacon

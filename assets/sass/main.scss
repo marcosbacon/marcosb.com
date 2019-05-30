@@ -1509,3 +1509,12 @@
     position: relative;
     overflow: hidden;
 	}
+
+	.portfolio {
+		p {
+			display: inline;
+		}
+		a.link {
+			font-size: 0.8em;
+		}
+	}

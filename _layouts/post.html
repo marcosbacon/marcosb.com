@@ -20,8 +20,11 @@
         <header class="major">
           <h2>{{ page.title }}</h2>
           <p>
-            <i class="fa fa-calendar"></i> {{ page.date | date: "%d %B %Y" }}{% if page.categories %} on <i class="fa fa-tags"></i> {{ page.categories | array_to_sentence_string }}.{% endif %}
-            {% include readingtime.html %}
+            {% if page.category != 'Portfolio' %}
+            <i class="fa fa-calendar"></i> 
+            {{ page.date | date: "%d %B %Y" }} 
+            {% if page.categories %} on <i class="fa fa-tags"></i> {{ page.categories | array_to_sentence_string }}.{% endif %}
+            {% include readingtime.html %} {% endif %}
           </p>
         </header>
 

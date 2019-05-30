@@ -1360,6 +1360,9 @@
 					h2 {
 						font-size: 1.35em;
 					}
+					p {
+						font-color: pink;
+					}
 				}
 			}
 
@@ -1492,3 +1495,18 @@
 			}
 
 	}
+
+/* BACON'S CUSTOM */
+
+	#main {
+    background-color: white; 
+	}
+
+	.vimeo {
+		border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+	}
+
